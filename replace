@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# 実行方法
+# replace 変更前文字列 変更後文字列 path/to/file
+
+find "$3" -type f | xargs perl -p -i -e 's %'"$1"'%'"$2"'%g'

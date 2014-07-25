@@ -1,0 +1,7 @@
+#! /bin/bash
+
+refsNo=$(git rev-parse --abbrev-ref HEAD | cut -d'_' -f2)
+
+commit="git commit -m \"refs #$refsNo $1\""
+
+eval ${commit}
