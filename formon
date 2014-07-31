@@ -1,0 +1,1 @@
+perl -p -i -e 's /'"'showFormActionName' => false,"'/'"'showFormActionName' => true,"'/g' "/home/vagrant/dev8122/etc/common-kai.php"

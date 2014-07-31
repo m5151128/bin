@@ -1,0 +1,1 @@
+sed -i -e '3,4s/vagrant@localhost/nagayama@sencorp.co.jp/g' "/home/vagrant/dev8122/etc/sen-ini-vagrant.php"
