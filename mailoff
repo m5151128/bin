@@ -1,1 +1,1 @@
-sed -i -e '3,4s/nagayama@sencorp.co.jp/vagrant@localhost/g' "/home/vagrant/dev8122/etc/sen-ini-vagrant.php"
+sed -i -e '3,4s/nagayama@sencorp.co.jp/vagrant@localhost/g' "/home/vagrant/dev8122/etc/config-vagrant.php"

@@ -1,0 +1,1 @@
+ln -s ~/dev8122/etc/config-vagrant.php ~/dev8122/etc/config.php
