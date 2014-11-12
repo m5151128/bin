@@ -8,3 +8,7 @@ current_branch=$( git branch | grep '^*' | awk '{print $2}' )
 
 # プルリク用URLを生成
 echo https://github.com/$org_repo_name/pull/new/$current_branch
+
+# プッシュ
+push="git push origin $current_branch"
+eval${push}
