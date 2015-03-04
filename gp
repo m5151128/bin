@@ -11,4 +11,4 @@ echo https://github.com/$org_repo_name/pull/new/$current_branch
 
 # プッシュ
 push="git push origin $current_branch"
-eval${push}
+eval ${push}
